@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include financial_ratios *.css
+recursive-include financial_ratios *.csv
+recursive-include financial_ratios *.html
+recursive-include financial_ratios *.ico
+recursive-include financial_ratios *.js
+recursive-include financial_ratios *.json
+recursive-include financial_ratios *.md
+recursive-include financial_ratios *.png
+recursive-include financial_ratios *.py
+recursive-include financial_ratios *.svg
+recursive-include financial_ratios *.txt
+recursive-exclude financial_ratios *.pyc
