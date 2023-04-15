@@ -1,0 +1,30 @@
+{
+ "content": null,
+ "creation": "2023-03-23 10:41:01.257122",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "fas fa-sack-dollar",
+ "idx": 0,
+ "modified": "2023-04-14 15:00:15.817391",
+ "modified_by": "Administrator",
+ "module": "Financial Ratios",
+ "name": "financial-ratios-cal",
+ "owner": "Administrator",
+ "page_name": "financial-ratios-cal",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Finance Manage"
+  },
+  {
+   "role": "Director"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Financial Ratios Calculator"
+}

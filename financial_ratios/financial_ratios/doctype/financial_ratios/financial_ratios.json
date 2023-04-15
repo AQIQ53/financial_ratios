@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-11 16:09:28.238851",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ratio_type",
+  "based_on",
+  "divisor",
+  "dividend",
+  "divisor_value",
+  "dividend_value",
+  "ratio_value",
+  "description"
+ ],
+ "fields": [
+  {
+   "default": "Current Ratio",
+   "fieldname": "ratio_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ratio Type",
+   "options": "Current Ratio\nReturn on Equity\nGross Profit Margin\nPrice Earnings\nInventory Turnover\nDays Sales of Inventory\nFixed Assets Turnover\nReturn on Assets\nAsset Turnover",
+   "reqd": 1
+  },
+  {
+   "default": "Root Account",
+   "fieldname": "based_on",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Based On",
+   "options": "Root Account\nAccount Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "divisor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Divisor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dividend",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dividend",
+   "reqd": 1
+  },
+  {
+   "default": "0.0",
+   "fieldname": "ratio_value",
+   "fieldtype": "Float",
+   "label": "Ratio Value",
+   "read_only": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "default": "0.0",
+   "fieldname": "divisor_value",
+   "fieldtype": "Float",
+   "label": "Divisor Value",
+   "read_only": 1
+  },
+  {
+   "default": "1.0",
+   "fieldname": "dividend_value",
+   "fieldtype": "Float",
+   "label": "Dividend Value",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-12 10:20:45.284385",
+ "modified_by": "Administrator",
+ "module": "Financial Ratios",
+ "name": "Financial Ratios",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

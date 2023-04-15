@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-11 16:13:16.154491",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "column_break_o3kfn",
+  "from_date",
+  "column_break_azs35",
+  "to_date",
+  "financial_ratios_section",
+  "ratios"
+ ],
+ "fields": [
+  {
+   "default": "Impala Glass Industries Ltd",
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_o3kfn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "column_break_azs35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "financial_ratios_section",
+   "fieldtype": "Section Break",
+   "label": "Financial Ratios"
+  },
+  {
+   "fieldname": "ratios",
+   "fieldtype": "Table",
+   "label": "Ratios",
+   "options": "Financial Ratios"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-04-12 10:31:51.771329",
+ "modified_by": "Administrator",
+ "module": "Financial Ratios",
+ "name": "Financial Ratio Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
